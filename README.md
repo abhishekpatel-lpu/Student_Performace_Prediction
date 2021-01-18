@@ -48,3 +48,40 @@ G1 - first period grade (numeric: from 0 to 20) <br>
 G2 - second period grade (numeric: from 0 to 20) <br>
 G3 - final grade (numeric: from 0 to 20, output target) <br>
 
+
+<h1>INTRODUCTION </h1>
+Student Performance is a problem proposed by the University of California, to predict a
+students’ performance in two subject, Mathematics and Portuguese. The dataset for the same is
+also provided by the UCI for training purpose. The dataset provided can be used two solve
+three types of problem namely, prediction, binary classification and multiclass classification.
+As a part of project, we have performed training, and build model for prediction and binary
+classification, following both the data file given as a part of data set.
+The Objective for the Project is as describe below,
+• Building of Feature Set, this task involves 2 step, Feature Selection and Feature
+Extraction. Apart from this, we need to pre-process both the dataset, checking for any
+kind of noise present in the data, scaling if required, Conversion of categorical data and
+handling the binary columns/attribute
+• Model Selection, in this step we need to do a comparative study on three or more
+hypothesis or models based on a scorer (accuracy scorer, Mean Squared error etc.) and
+select the model which have highest accuracy
+• Once, your done with model selection step and have come up with a good model, the
+next step is to refit the model to optimize it.
+• On the optimised model trained, the next task involves evaluative study of your model
+and plotting the result so obtain
+• Next, for the selected model perform Hyper- parameter tuning, to obtain the best value
+for hyperparameters.
+• The Objective meets, by applying prediction/classification on new data.
+Above all steps, creates a pipeline for both the data set which trainer got to follow.
+
+<h2>Dataset</h2>
+Dataset for underlying problem, named student performance is provided by UCI team.
+The dataset contains two data file students_math, for the subject mathematics and student_por
+for the subject Portuguese. The data file of mathematics subject consists of 395 instances – 33
+attribute and the data file for Portuguese consist of 649 instances – 33 attributes.
+The data attributes include student grades, demographic, social and school related features) and
+it was collected by using school reports and questionnaires. The two datasets were modelled
+under binary/five-level classification and regression tasks. Important note: the target attribute
+G3 has a strong correlation with attributes G2 and G1. This occurs because G3 is the final year
+grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades.
+It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful.
+
